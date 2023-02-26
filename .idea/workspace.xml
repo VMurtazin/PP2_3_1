@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="hiberConfig">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/config/HibernateConfig.java" afterDir="false" />
+    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="connectDbOk">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +63,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -171,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677331393714</updated>
-      <workItem from="1677331395025" duration="14791000" />
+      <workItem from="1677331395025" duration="15344000" />
     </task>
     <task id="LOCAL-00001" summary="addLayers">
       <created>1677344783987</created>
@@ -187,15 +188,38 @@
       <option name="project" value="LOCAL" />
       <updated>1677425654086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="connectDbOk">
+      <created>1677430465513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677430465513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="addLayers" />
     <MESSAGE value="hiberConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="hiberConfig" />
+    <MESSAGE value="connectDbOk" />
+    <option name="LAST_COMMIT_MESSAGE" value="connectDbOk" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
