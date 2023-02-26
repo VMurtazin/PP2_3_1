@@ -1,6 +1,6 @@
 package ru.murtazin.crud.dao;
 
-import org.springframework.stereotype.Component;
+
 import org.springframework.stereotype.Repository;
 import ru.murtazin.crud.model.User;
 
