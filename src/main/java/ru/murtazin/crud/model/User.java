@@ -1,12 +1,23 @@
 package ru.murtazin.crud.model;
 
+import javax.persistence.*;
+
+@Entity(name = "User")
+@Table(name = "users")
+
 public class User {
 
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Column
     private String name;
+    @Column
     private String surname;
+    @Column
     private String email;
+    @Column
     private int age;
 
     public User() {
@@ -14,6 +25,13 @@ public class User {
 
     public User(int id, String name, String surname, String email, int age) {
         this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.age = age;
+    }
+
+    public User(String name, String surname, String email, int age) {
         this.name = name;
         this.surname = surname;
         this.email = email;

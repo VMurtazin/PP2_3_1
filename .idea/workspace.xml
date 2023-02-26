@@ -9,13 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="addLayers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/config/HibernateConfig.java" afterDir="false" />
+    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="hiberConfig">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677331393714</updated>
-      <workItem from="1677331395025" duration="12305000" />
+      <workItem from="1677331395025" duration="14791000" />
     </task>
     <task id="LOCAL-00001" summary="addLayers">
       <created>1677344783987</created>
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677344783987</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hiberConfig">
+      <created>1677425654086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677425654086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="addLayers" />
-    <option name="LAST_COMMIT_MESSAGE" value="addLayers" />
+    <MESSAGE value="hiberConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="hiberConfig" />
   </component>
 </project>
