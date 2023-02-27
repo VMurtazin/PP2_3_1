@@ -6,18 +6,16 @@ import org.springframework.stereotype.Repository;
 import ru.murtazin.crud.model.User;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.util.List;
 
 @Repository
 public class UserDaoImpl implements UserDao{
 
+    @PersistenceContext
     private EntityManager entityManager;
 
-    @Autowired
-    public UserDaoImpl(EntityManager entityManager) {
-        this.entityManager = entityManager;
-    }
 
     @Override
     @SuppressWarnings("unchecked")

@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class UserServiseImpl implements UserService{
 
-    UserDao userDao;
+   private UserDao userDao;
 
     @Autowired
     public UserServiseImpl(UserDao userDao) {
@@ -48,6 +48,6 @@ public class UserServiseImpl implements UserService{
     @Override
     @Transactional
     public User getById(int id) {
-        return null;
+        return userDao.getById(id);
     }
 }

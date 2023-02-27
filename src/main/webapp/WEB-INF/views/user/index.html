@@ -1,10 +1,30 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CARS</title>
 </head>
 <body>
-
+<br>
+<h2>Users Table</h2>
+<hr>
+<br>
+<table border="1" style="width:300px">
+    <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Year</th>
+        <th>Email</th>
+    </tr>
+    <tr th:each="user, iterStat : ${allUsers}">
+        <td th:text="${user.getName()}"></td>
+        <td th:text="${user.getSurname()}"></td>
+        <td th:text="${user.getAge()}"></td>
+        <td th:text="${user.getEmail()}"></td>
+    </tr>
+</table>
+<br>
+<hr>
 </body>
 </html>
