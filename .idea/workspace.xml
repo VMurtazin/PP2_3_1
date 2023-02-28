@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="addDaoMethods">
+    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="addIndexHtml">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/service/UserServiseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/service/UserServiseImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,6 +64,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -169,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677331393714</updated>
       <workItem from="1677331395025" duration="15344000" />
-      <workItem from="1677517512409" duration="5425000" />
+      <workItem from="1677517512409" duration="15205000" />
     </task>
     <task id="LOCAL-00001" summary="addLayers">
       <created>1677344783987</created>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677519535050</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="addIndexHtml">
+      <created>1677523007076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677523007076</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +227,8 @@
     <MESSAGE value="hiberConfig" />
     <MESSAGE value="connectDbOk" />
     <MESSAGE value="addDaoMethods" />
-    <option name="LAST_COMMIT_MESSAGE" value="addDaoMethods" />
+    <MESSAGE value="addIndexHtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="addIndexHtml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

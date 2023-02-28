@@ -5,6 +5,8 @@ import org.springframework.stereotype.Controller;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.murtazin.crud.model.User;
 import ru.murtazin.crud.service.UserService;
@@ -30,5 +32,20 @@ public class UserController {
         List<User> listUsers = userService.getAllUsers();
         model.addAttribute("allUsers",listUsers);
         return "user/index";
+    }
+
+    @GetMapping("/new")
+    public String newUser(Model model ) {
+
+        model.addAttribute("newuser",new User());
+        return "user/new";
+    }
+
+    @PostMapping("")
+    public String create(@ModelAttribute("newuser")User user) {
+
+        userService.add(user);
+        return "redirect:/users";
+
     }
 }
