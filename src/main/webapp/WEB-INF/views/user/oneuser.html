@@ -5,24 +5,40 @@
     <title>User</title>
 </head>
 
-<h3>User info</h3>
+<h3></h3>
 <body>
-<h4>User id:</h4> <p th:text="${user.getId()}">ID</p>
-
-<h4>User name:</h4><p th:text="${user.getName()}">NAME</p>
-<h4>User surname:</h4><p th:text="${user.getSurname()}">SURNAME</p>
-<h4>User age:</h4><p th:text="${user.getAge()}">AGE</p>
-<h4>Email:</h4><p th:text="${user.getEmail()}">EMAIL</p>
+<div align="center">
+<h2>User Page</h2>
+<hr>
+<br>
+<table border="1" style="width:300px">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Year</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+<!--    <tr th:each="user, iterStat : ${allUsers}">-->
+        <td th:text="${user.getId()}"></td>
+        <td th:text="${user.getName()}"></td>
+        <td th:text="${user.getSurname()}"></td>
+        <td th:text="${user.getAge()}"></td>
+        <td th:text="${user.getEmail()}"></td>
+    </tr>
+</table>
 <br>
 <a th:href="@{/users/{id}/edit(id=${user.getId()})}">Edit</a>
 <br>
 <br>
-<a th:href="@{/users}">All users</a>
+<a th:href="@{/users}">Back to users table</a>
 <br>
 <hr/>
 <br>
 <form th:method="DELETE" th:action="@{/users/{id}(id=${user.getId()})}">
-    <input type="submit" value="Delete">
+    <input type="submit" value="DELETE">
 </form>
+</div>
 </body>
 </html>

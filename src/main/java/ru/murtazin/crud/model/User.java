@@ -1,6 +1,5 @@
 package ru.murtazin.crud.model;
 
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,7 +11,6 @@ import javax.persistence.Table;
 @Table(name = "users")
 
 public class User {
-
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

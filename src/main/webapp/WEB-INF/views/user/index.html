@@ -15,14 +15,20 @@
     <tr>
         <th>Name</th>
         <th>Surname</th>
-        <th>Year</th>
+        <th>Age</th>
         <th>Email</th>
+        <th>Edit</th>
+        <th>Delete</th>
+
     </tr>
     <tr th:each="user, iterStat : ${allUsers}">
         <td th:text="${user.getName()}"></td>
         <td th:text="${user.getSurname()}"></td>
         <td th:text="${user.getAge()}"></td>
         <td th:text="${user.getEmail()}"></td>
+        <td><a  th:href="@{users/{id}/edit(id=${user.getId()})}"> Edit </a></td>
+        <td><a  th:href="@{users/{id}(id=${user.getId()})}"> Delete </a></td>
+
     </tr>
 </table>
     <br>
