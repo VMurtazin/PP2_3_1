@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="addIndexHtml">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/new.html" afterDir="false" />
+    <list default="true" id="fb5d6456-a0b4-4343-8a27-f39132a28a6f" name="Changes" comment="addNewUserMethod">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/oneuser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/murtazin/crud/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677331393714</updated>
       <workItem from="1677331395025" duration="15344000" />
-      <workItem from="1677517512409" duration="15205000" />
+      <workItem from="1677517512409" duration="17579000" />
     </task>
     <task id="LOCAL-00001" summary="addLayers">
       <created>1677344783987</created>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677523007076</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="addNewUserMethod">
+      <created>1677608008219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677608008219</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +234,8 @@
     <MESSAGE value="connectDbOk" />
     <MESSAGE value="addDaoMethods" />
     <MESSAGE value="addIndexHtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="addIndexHtml" />
+    <MESSAGE value="addNewUserMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="addNewUserMethod" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

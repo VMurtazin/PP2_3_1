@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.murtazin.crud.model.User;
@@ -32,6 +33,12 @@ public class UserController {
         List<User> listUsers = userService.getAllUsers();
         model.addAttribute("allUsers",listUsers);
         return "user/index";
+    }
+
+    @GetMapping("/{id}")
+    public String user(@PathVariable("id") int id, Model model) {
+        model.addAttribute("user", userService.getById(id));
+        return "user/oneuser";
     }
 
     @GetMapping("/new")
